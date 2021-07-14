@@ -10,6 +10,9 @@ class _InputPageState extends State<InputPage> {
   String _email = "";
   String _fecha = "";
 
+  List<String> _poderes = ['Volar', 'Rayos X', 'Super fuerza'];
+  String _opcionSeleccionada = 'Volar';
+
   TextEditingController _inputFiedlDateController = new TextEditingController();
 
   @override
@@ -28,6 +31,8 @@ class _InputPageState extends State<InputPage> {
           _crearPassword(),
           Divider(),
           _crearFecha(context),
+          Divider(),
+          _crearDropdown(),
           Divider(),
           _crearPersona(),
         ],
@@ -74,6 +79,7 @@ class _InputPageState extends State<InputPage> {
     return ListTile(
       title: Text('Nombre es: $_nombre'),
       subtitle: Text('Email es: $_email'),
+      trailing: Text('Poder: $_opcionSeleccionada'),
     );
   }
 
@@ -101,7 +107,7 @@ class _InputPageState extends State<InputPage> {
         suffixIcon: Icon(Icons.perm_contact_calendar),
         icon: Icon(Icons.calendar_today),
       ),
-      onTap: (){
+      onTap: () {
         FocusScope.of(context).requestFocus(new FocusNode());
         _selectDate(context);
       },
@@ -114,14 +120,46 @@ class _InputPageState extends State<InputPage> {
       initialDate: new DateTime.now(),
       firstDate: new DateTime(2020),
       lastDate: new DateTime(2025),
-      locale: Locale('es','ES'),
+      locale: Locale('es', 'ES'),
     );
 
-    if( picked !=null){
+    if (picked != null) {
       setState(() {
-        _fecha=picked.toString();
-        _inputFiedlDateController.text=_fecha;
+        _fecha = picked.toString();
+        _inputFiedlDateController.text = _fecha;
       });
     }
+  }
+
+  List<DropdownMenuItem<String>> getOpcionesDropdown() {
+    List<DropdownMenuItem<String>> lista = [];
+    _poderes.forEach((poder) {
+      lista.add(DropdownMenuItem(
+        value: poder,
+        child: Text(poder),
+      ));
+    });
+
+    return lista;
+  }
+
+  Widget _crearDropdown() {
+    return Row(
+      children: [
+        Icon(Icons.select_all),
+        SizedBox(width: 30.0,),
+        Expanded(
+          child: DropdownButton(
+            value: _opcionSeleccionada,
+            items: getOpcionesDropdown(),
+            onChanged: (opt) {
+              setState(() {
+                _opcionSeleccionada = opt.toString();
+              });
+            },
+          ),
+        )
+      ],
+    );
   }
 }
