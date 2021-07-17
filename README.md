@@ -1,16 +1,50 @@
-# componentes
+# Componentes de Flutter 
 
-A new Flutter project.
+Proyecto desarrollado en Flutter que muestra algunos de los Widgets más usados en aplicaciones móviles.
 
-## Getting Started
+## Capturas de pantalla
 
-This project is a starting point for a Flutter application.
+### Menú Principal
 
-A few resources to get you started if this is your first Flutter project:
+![Menu Principal](screenshots/menu-principal.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Alertas
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Alerta1](screenshots/alerta1.png)
+
+### Menú Principal
+
+![Alerta2](screenshots/alerta2.png)
+
+### Avatars
+
+![Avatars](screenshots/avatar.png)
+
+### Cards - Tarjetas
+
+![Cards - Tarjetas](screenshots/cards.png)
+
+### Animated Container
+
+![Animated Container 1](screenshots/animated-container1.png)
+
+
+![Animated Container 2](screenshots/animated-container2.png)
+
+### Inputs
+
+![Inputs](screenshots/inputs.png)
+
+### Sliders
+
+![Slider1](screenshots/slider1.png)
+
+![Slider2](screenshots/slider2.png)
+
+![Slider3](screenshots/slider3.png)
+
+### Listas y Scroll
+
+![Lista1](screenshots/lista1.png)
+
+![Lista2](screenshots/lista2.png)
