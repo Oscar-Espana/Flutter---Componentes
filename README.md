@@ -6,45 +6,42 @@ Proyecto desarrollado en Flutter que muestra algunos de los Widgets más usados 
 
 ### Menú Principal
 
-![Menu Principal](screenshots/menu-principal.png)
+<img src="screenshots/menu-principal.png" alt="Menu Principal" width="275px">
 
 ### Alertas
 
-![Alerta1](screenshots/alerta1.png)
+<img src="screenshots/alerta1.png" alt="Alerta 1" width="275px">
 
-### Menú Principal
-
-![Alerta2](screenshots/alerta2.png)
+<img src="screenshots/alerta2.png" alt="Alerta2" width="275px">
 
 ### Avatars
 
-![Avatars](screenshots/avatar.png)
+<img src="screenshots/avatar.png" alt="Avatar" width="275px">
 
 ### Cards - Tarjetas
 
-![Cards - Tarjetas](screenshots/cards.png)
+<img src="screenshots/cards.png" alt="Cards - Tarjetas" width="275px">
 
 ### Animated Container
 
-![Animated Container 1](screenshots/animated-container1.png)
+<img src="screenshots/animated-container1.png" alt="Animated Container 1" width="275px">
 
-
-![Animated Container 2](screenshots/animated-container2.png)
+<img src="screenshots/animated-container2.png" alt="Animated Container 2" width="275px">
 
 ### Inputs
 
-![Inputs](screenshots/inputs.png)
+<img src="screenshots/inputs.png" alt="Inputs" width="275px">
 
 ### Sliders
 
-![Slider1](screenshots/slider1.png)
+<img src="screenshots/slider1.png" alt="Slider 1" width="275px">
 
-![Slider2](screenshots/slider2.png)
+<img src="screenshots/slider2.png" alt="Slider 2" width="275px">
 
-![Slider3](screenshots/slider3.png)
+<img src="screenshots/slider2.png" alt="Slider 3" width="275px">
 
 ### Listas y Scroll
 
-![Lista1](screenshots/lista1.png)
+<img src="screenshots/lista1.png" alt="Lista1" width="275px">
 
-![Lista2](screenshots/lista2.png)
+<img src="screenshots/lista2.png" alt="Lista2" width="275px">
